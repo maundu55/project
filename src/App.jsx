@@ -1,12 +1,17 @@
 import React from "react"
 import Greet from "./components/Greet"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import MainContent from "./components/MainContent"
  
 function App() {
 
   return (
     <>
     <Greet />
-    <h2>Mary Maundu</h2>
+    <Header />
+    <Footer />
+    <MainContent />
     </>
     
   )
