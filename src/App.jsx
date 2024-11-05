@@ -1,10 +1,14 @@
-
+import React from "react"
+import Greet from "./components/Greet"
+ 
 function App() {
 
   return (
     <>
-     <h1>React project practice</h1>
+    <Greet />
+    <h2>Mary Maundu</h2>
     </>
+    
   )
 }
 
