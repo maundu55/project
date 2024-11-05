@@ -9,11 +9,10 @@ const UserList = () => {
   return (
     <div>
         {users.map(user=>
-            <ul key={user.id}>
-                <li key={user.id}>{user.id}</li>
-                <li key={user.name}>{user.name}</li>
-                <li key={user.age}>{user.age}</li>
-            </ul>
+            <div key={user.id}>
+                <h3>{user.name}</h3>
+                <h3>{user.age}</h3>
+            </div>
         )}
     </div>
   )

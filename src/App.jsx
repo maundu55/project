@@ -7,6 +7,7 @@ import WelcomeMessage from "./components/WelcomeMessage"
 import JSXRules from "./components/JSXRules"
 import ProductInfo from "./components/ProductInfo"
 import UserList from "./components/UserList"
+import ProductList from "./components/ProductList"
  
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
     <JSXRules />
     <ProductInfo /> 
     <UserList />
+    <hr />
+    <ProductList />
     </>
     
   )
