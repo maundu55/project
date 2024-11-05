@@ -6,6 +6,7 @@ import Footer from "./components/Footer"
 import WelcomeMessage from "./components/WelcomeMessage"
 import JSXRules from "./components/JSXRules"
 import ProductInfo from "./components/ProductInfo"
+import UserList from "./components/UserList"
  
 function App() {
 
@@ -17,8 +18,8 @@ function App() {
     <Footer />
     <WelcomeMessage />
     <JSXRules />
-    <ProductInfo />
-    
+    <ProductInfo /> 
+    <UserList />
     </>
     
   )
