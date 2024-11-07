@@ -8,6 +8,7 @@ import ProductInfo from "./components/ProductInfo"
 import UserList from "./components/UserList"
 import ProductList from "./components/ProductList"
 import Person from "./components/Person"
+import Product from "./components/Product"
  
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
     <hr />
     <ProductList />
     <Person name ="Mary Maundu" age={29} />
+    <Product name="Phone" price= {500}/>
     </>
     
   )
