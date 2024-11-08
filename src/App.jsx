@@ -12,6 +12,8 @@ import Product from "./components/Product"
 import Weather from "./components/Weather"
 import UserStatus from "./components/UserStatus"
 import Greeting from "./components/Greeting"
+import StyledCard from "./components/StyledCard"
+import ProfileCard from "./components/ProfileCard"
  
 function App() {
 
@@ -32,6 +34,8 @@ function App() {
 
     <UserStatus loggedIn={false} Admin={true} />
     <Greeting  timeOfDay ="afternoon"/>
+    <StyledCard />
+    <ProfileCard />
     </>
     
   )
