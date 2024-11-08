@@ -14,6 +14,7 @@ import UserStatus from "./components/UserStatus"
 import Greeting from "./components/Greeting"
 import StyledCard from "./components/StyledCard"
 import ProfileCard from "./components/ProfileCard"
+import IconComponent from "./components/IconComponent"
  
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
     <Greeting  timeOfDay ="afternoon"/>
     <StyledCard />
     <ProfileCard />
+    <IconComponent />
     </>
     
   )
