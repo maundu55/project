@@ -1,4 +1,5 @@
 import React from "react"
+import { useState } from "react"
 import Greet from "./components/Greet"
 import Header from "./components/Header"
 import MainContent from "./components/MainContent"
@@ -18,8 +19,10 @@ import IconComponent from "./components/IconComponent"
 import Count from "./components/Count"
 import Friends from "./components/Friends"
 import Movies from "./components/Movies"
+import Counter from "./components/Counter"
  
 function App() {
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -44,6 +47,7 @@ function App() {
     <Count />
     <Friends />
     <Movies />
+    <Counter  count={count} onClickHandler={()=> setCount(count+1)} />
     </>
     
   )
