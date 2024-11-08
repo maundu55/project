@@ -9,6 +9,9 @@ import UserList from "./components/UserList"
 import ProductList from "./components/ProductList"
 import Person from "./components/Person"
 import Product from "./components/Product"
+import Weather from "./components/Weather"
+import UserStatus from "./components/UserStatus"
+import Greeting from "./components/Greeting"
  
 function App() {
 
@@ -25,6 +28,10 @@ function App() {
     <ProductList />
     <Person name ="Mary Maundu" age={29} />
     <Product name="Phone" price= {500}/>
+    <Weather />
+
+    <UserStatus loggedIn={false} Admin={true} />
+    <Greeting  timeOfDay ="afternoon"/>
     </>
     
   )
