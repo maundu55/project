@@ -20,6 +20,7 @@ import Count from "./components/Count"
 import Friends from "./components/Friends"
 import Movies from "./components/Movies"
 import Counter from "./components/Counter"
+import TodoList from "./components/TodoList"
  
 function App() {
   const [count, setCount] = useState(0);
@@ -47,7 +48,8 @@ function App() {
     <Count />
     <Friends />
     <Movies />
-    <Counter  count={count} onClickHandler={()=> setCount(count+1)} />
+    <Counter  />
+    <TodoList />
     </>
     
   )
