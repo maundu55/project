@@ -25,6 +25,7 @@ import Profile from "./components/Profile"
 import ShoppingList from "./components/ShoppingList"
 import Data from "./components/Data"
 import BasicEffect from "./components/BasicEffect"
+import CounterEffect from "./components/CounterEffect"
 
 
 
@@ -60,6 +61,7 @@ function App() {
     <ShoppingList />
     <Data />
     <BasicEffect />
+    <CounterEffect />
     </>
     
   )
