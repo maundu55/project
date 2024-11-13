@@ -22,6 +22,7 @@ import Movies from "./components/Movies"
 import Counter from "./components/Counter"
 import TodoList from "./components/TodoList"
 import Profile from "./components/Profile"
+import ShoppingList from "./components/ShoppingList"
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
     <Counter  />
     <TodoList />
     <Profile />
+    <ShoppingList />
     </>
     
   )
