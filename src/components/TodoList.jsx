@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
 const TodoList = () => {
-    const [todos, setTodos] =useState([]);
+    const [todos, setTodos] = useState([]);
 
-    const [inputValue, setInputValue] =useState('')
+    const [inputValue, setInputValue] = useState('');
 
     const handleSubmit = (e) =>{
         e.preventDefault()
@@ -28,9 +28,9 @@ const TodoList = () => {
       </form>
 
       <ul>
-        {todos.map((todo, index)=>{
+        {todos.map((todo, index)=>(
             <li key={index}>{todo}</li>
-        })}
+        ))}
       </ul>
       <br />
       <br />
