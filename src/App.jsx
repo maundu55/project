@@ -24,6 +24,8 @@ import TodoList from "./components/TodoList"
 import Profile from "./components/Profile"
 import ShoppingList from "./components/ShoppingList"
 import Data from "./components/Data"
+import BasicEffect from "./components/BasicEffect"
+
 
 
 function App() {
@@ -57,6 +59,7 @@ function App() {
     <Profile />
     <ShoppingList />
     <Data />
+    <BasicEffect />
     </>
     
   )
