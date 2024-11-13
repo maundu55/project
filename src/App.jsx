@@ -23,6 +23,7 @@ import Counter from "./components/Counter"
 import TodoList from "./components/TodoList"
 import Profile from "./components/Profile"
 import ShoppingList from "./components/ShoppingList"
+import Data from "./components/Data"
 
 
 function App() {
@@ -55,9 +56,32 @@ function App() {
     <TodoList />
     <Profile />
     <ShoppingList />
+    <Data />
     </>
     
   )
 }
 
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// we setup useEffect hook to run some code WHEN
+// component renders for the first time
+//whenever it re-renders
+//some data in our component changed.
