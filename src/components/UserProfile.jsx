@@ -1,12 +1,14 @@
-import React, {useContext}from 'react'
-import { profileContext } from './UserContext'
+import { useContext } from 'react';
+import { UserContext } from './UserProvider';
 
-const profile = useContext(profileContext);
 
 const UserProfile = () => {
+
+  const {user} = useContext(UserContext)
   return (
     <div>
-        <h2>{profile.name} {profile.age}</h2>
+      <h1>User Profile</h1>
+      <p>Name: {user.name}</p>
     </div>
   )
 }
