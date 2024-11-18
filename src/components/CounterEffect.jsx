@@ -6,7 +6,7 @@ const handleClick=()=>{
     setCount(count+1);
 }
     useEffect(()=>{
-       document.title= count; 
+       document.title= `Count: ${count}`; 
     },[count]);
    
 

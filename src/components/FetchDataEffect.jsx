@@ -12,8 +12,8 @@ const FetchDataEffect = () => {
             const data = await res.json();
             if(data && data.length) setData(data);
          }
-         getData();
-    })
+         getData(); 
+    },[])
   return (
     <div>
         <ul>
