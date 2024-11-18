@@ -27,7 +27,7 @@ import Data from "./components/Data"
 import BasicEffect from "./components/BasicEffect"
 import CounterEffect from "./components/CounterEffect"
 import FetchDataEffect from "./components/FetchDataEffect"
-import ComponentA from "./components/ComponentA"
+import UserContext from "./components/UserContext"
 
 
 
@@ -65,7 +65,7 @@ function App() {
     <BasicEffect />
     <CounterEffect />
     <FetchDataEffect />
-    <ComponentA />
+    <UserContext />
     </>
     
   )
