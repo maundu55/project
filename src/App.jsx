@@ -31,6 +31,7 @@ import UserProvider from "./components/UserProvider"
 
 
 
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -66,6 +67,7 @@ function App() {
     <CounterEffect />
     <FetchDataEffect />
     <UserProvider />
+  
     </>
     
   )
