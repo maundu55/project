@@ -29,6 +29,7 @@ import CounterEffect from "./components/CounterEffect"
 import FetchDataEffect from "./components/FetchDataEffect"
 import UserProvider from "./components/UserProvider"
 import ReducerTutorial from "./components/ReducerTutorial"
+import CounterReducer from "./components/CounterReducer"
 
 
 
@@ -69,6 +70,7 @@ function App() {
     <FetchDataEffect />
     <UserProvider />
     <ReducerTutorial />
+    <CounterReducer />
   
     </>
     
