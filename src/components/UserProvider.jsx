@@ -4,17 +4,16 @@ import UpdateUser from './UpdateUser';
 
 export const UserContext = createContext();
 
-const UserProvider = ({children}) =>{
-  const [user, setUser] = useState ({name:''})
+const UserProvider = () =>{
+  const [user, setUser] = useState ({name:'Mary'})
 
   const updateUser = (newName) =>{
-    setUser({name: newName})
+    setUser({name: newName});
   }
 
   return <UserContext.Provider value={{ user, updateUser }}>
-   {children }
-   <UserProfile user={name} />
-   <UpdateUser />
+   <UserProfile />
+   <UpdateUser/>
    
   </UserContext.Provider>
 }

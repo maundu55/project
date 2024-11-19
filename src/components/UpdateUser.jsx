@@ -11,7 +11,7 @@ const UpdateUser = () => {
         e.preventDefault();
 
         if(newName.trim()){
-            UpdateUser(newName)
+            updateUser(newName)
             setNewName('')
         }
     }
@@ -24,9 +24,10 @@ const UpdateUser = () => {
     value={newName} 
     onChange={(e)=> setNewName(e.target.value)}
     placeholder='Enter new name'/>
+    <button type='submit'>Update User</button>
         </form>
 
-        <button type='submit'>Update User</button>
+        
     </div>
   )
 }
