@@ -31,6 +31,7 @@ import UserProvider from "./components/UserProvider"
 import ReducerTutorial from "./components/ReducerTutorial"
 import CounterReducer from "./components/CounterReducer"
 import InputElement from "./components/InputElement"
+import FocusInput from "./components/FocusInput"
 
 
 
@@ -73,6 +74,7 @@ function App() {
     <ReducerTutorial />
     <CounterReducer />
     <InputElement />
+    <FocusInput />
   
     </>
     
