@@ -30,6 +30,7 @@ import FetchDataEffect from "./components/FetchDataEffect"
 import UserProvider from "./components/UserProvider"
 import ReducerTutorial from "./components/ReducerTutorial"
 import CounterReducer from "./components/CounterReducer"
+import InputElement from "./components/InputElement"
 
 
 
@@ -71,6 +72,7 @@ function App() {
     <UserProvider />
     <ReducerTutorial />
     <CounterReducer />
+    <InputElement />
   
     </>
     
